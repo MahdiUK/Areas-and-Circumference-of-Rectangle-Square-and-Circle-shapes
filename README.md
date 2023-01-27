@@ -1,20 +1,5 @@
-#Rectangle Area
-x = float(input('Enter the width:'))
-y = float(input('Enter the length:'))
-z = x * y
-print(f'Rectangle Area = {z}')
-
-#Square Area
-o = float(input('Enter the width:'))
-p = float(input('Enter the length:'))
-if p > o or o > p:
-    print('This is wrong try again')
-else:
-    h = p * o
-    print(f'Square Area = {h}')
-
-#Circle Area
-from math import pi
-d = float(input('Enter the Radius:'))
-f = pi * d * d
-print(f'Circle Area = {f}')
+In this code I calculated both the Areas and Circumference of Rectangle, Square, and Circle shapes.
+Mathematic Formulas: 
+Rectangle Area: width * length      Rectangle Circumference: (width * 2) + (length * 2)
+Square Area: width * length         Square Circumference: (width * 2) + (lenght * 2)
+Circle Area: PI * Radious * Radious          Circle Circumference: PI * Diameter
